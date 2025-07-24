@@ -1,0 +1,118 @@
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* shared style */
+.second-bg{
+    background-color: rgb(248, 238, 231);
+}
+.nav-primary{
+    color:rgb(253, 110, 10);
+}
+.dark-2{
+    color: rgb(71, 71, 71);
+}
+.btn-primary{
+    font-weight: bold;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 15px;
+    background: rgb(253, 110, 10);
+    border: none;
+    margin-left: 10px;
+
+}
+.section-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(24, 24, 24);
+}
+.section-discription{
+    font-size: 16px;
+    color: rgb(117, 117, 117);
+}
+/* nav styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li {
+    list-style: none;
+    margin-right: 50px;
+}
+nav li a {
+    text-decoration: none;
+    font-size: 20px;
+}
+/* header */
+.header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+/* banner style */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px 0 150px;
+}
+.banner-content{
+    width: 580px;
+}
+.banner-greeting{
+    font-size: 40px;
+    font-weight: 600;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 75px;
+}
+.banner-discription{
+color: rgb(117, 117, 117);
+font-size: 18px;
+font-weight: 400;
+
+}
+.banner-profile-pic{
+    width: 540px;
+}
+/* main styles */
+ main{
+    max-width: 900px;
+    margin: 0 auto
+
+}
+/* about style */
+.about{
+    padding: 110px 130px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 110px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-discription{
+   font-weight: bold;
+    color: rgb(85, 83, 83);
+}
+.item-title{
+    color: rgb(105, 104, 104);
+}
+
