@@ -36,6 +36,7 @@
 .section-discription{
     font-size: 16px;
     color: rgb(117, 117, 117);
+    text-align: center;
 }
 .text-center{
    text-align: center;
@@ -179,4 +180,48 @@ footer input[type="text"], footer input[type="email"], footer textarea{
     margin-bottom: 24px;
     border: none;
 
+}
+
+/* responsive media quary */
+.hide{
+    display: none;
+}
+@media screen and (max-width: 576px) {
+    .skills-container ,
+    .resume-container,
+    .banner,
+    nav,
+    nav > ul,
+    footer,
+    .about-items{
+        flex-direction: column;
+    }
+    nav > ul {
+        gap: 20px;
+    }
+    .banner{
+        margin: 20px;
+    }
+    .header{
+        background-image: none;
+    }
+    .banner-profile-pic, .banner-content{
+        width: 100%;
+    }
+    .btn-primary {
+        margin-bottom: 15px;
+    }
+    .skill{
+        margin: 10px 30px;
+    }
+    footer , .about{
+        padding: 20px;
+    }
+    .footer-column{
+        width: 100%;
+    }
+    .footer input[type="text"], footer input[type="email"], footer textarea{
+        width: calc(100% - 40px);
+    }
+  
 }
